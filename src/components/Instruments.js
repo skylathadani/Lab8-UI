@@ -17,7 +17,10 @@ const Store = () => {
           <p>Explore the diverse sounds and tones our instruments offer</p>
         </Container>
       </Jumbotron>
-      <Image src="https://www.musicanddance.org/img/headers/28.jpg" fluid />
+      <Image
+        src="https://cdn.lynda.com/course/510645/510645-637286199849191063-16x9.jpg"
+        fluid
+      />
       <br />
       <br />
 

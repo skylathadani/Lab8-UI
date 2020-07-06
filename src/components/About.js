@@ -18,7 +18,10 @@ const about = () => {
           </p>
         </Container>
       </Jumbotron>
-      <Image src="https://www.musicanddance.org/img/headers/28.jpg" fluid />
+      <Image
+        src="https://blog.truefire.com/wp-content/uploads/2016/10/guitar-teacher.jpg"
+        fluid
+      />
       <br />
       <br />
 

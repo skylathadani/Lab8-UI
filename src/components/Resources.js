@@ -20,7 +20,10 @@ const Store = () => {
           </p>
         </Container>
       </Jumbotron>
-      <Image src="https://www.musicanddance.org/img/headers/28.jpg" fluid />
+      <Image
+        src="https://www.colburnschool.edu/wp-content/uploads/2019/09/p_Connie-Sheu-01857_2600o.jpg"
+        fluid
+      />
       <br />
       <br />
 

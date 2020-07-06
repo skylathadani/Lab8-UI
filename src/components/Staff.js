@@ -17,7 +17,10 @@ const Store = () => {
           <p>Learn about our dedicated staff</p>
         </Container>
       </Jumbotron>
-      <Image src="https://www.musicanddance.org/img/headers/28.jpg" fluid />
+      <Image
+        src="https://cdn.merriammusic.com/2014/01/Music-Lessons-Mississauga.jpg"
+        fluid
+      />
       <br />
       <br />
 

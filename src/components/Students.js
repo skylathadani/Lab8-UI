@@ -17,7 +17,10 @@ const Store = () => {
           <p>Explore and find out what our students are doing!</p>
         </Container>
       </Jumbotron>
-      <Image src="https://www.musicanddance.org/img/headers/28.jpg" fluid />
+      <Image
+        src="https://music8282.com/wp-content/uploads/revslider/parallax10.jpg"
+        fluid
+      />
       <br />
       <br />
 
