@@ -29,13 +29,17 @@ const Store = () => {
 
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Yousician</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/q9QNcCsWJPE"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -43,12 +47,17 @@ const Store = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Marty Music</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/rq2e7H4BxXA"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -56,13 +65,17 @@ const Store = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Piano Video Lessons</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/Jq4U50OiCog"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -74,13 +87,17 @@ const Store = () => {
       <br />
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>PHianonize</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/HygVEk9kJVs"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -88,12 +105,17 @@ const Store = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>katieFlute</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/d1Ld9hCVlLM"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -101,13 +123,17 @@ const Store = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Pianote</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/BwoY7WIJ_es"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>

@@ -14,7 +14,11 @@ const Store = () => {
       <Jumbotron fluid>
         <Container>
           <h1>Want to learn more about our instruments?</h1>
-          <p>Explore the diverse sounds and tones our instruments offer</p>
+          <p>
+            Explore the diverse sounds and tones our instruments offer. Click on
+            the videos below to hear various songs played on our most popular
+            instruments
+          </p>
         </Container>
       </Jumbotron>
       <Image
@@ -26,13 +30,17 @@ const Store = () => {
 
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Piano</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/8Z5EjAmZS1o"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -40,12 +48,17 @@ const Store = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Guitar</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/T-U3c1nU3eM"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -53,13 +66,17 @@ const Store = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Flute</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/is68rlOzEio"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -71,13 +88,17 @@ const Store = () => {
       <br />
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Clarinet</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/nuEMqMc1Fh4"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -85,12 +106,17 @@ const Store = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Trumpet</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/QcIp7K2UFgE"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -98,13 +124,17 @@ const Store = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Saxophone</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              <iframe
+                width="450"
+                height="315"
+                src="https://www.youtube.com/embed/XBWyE1v8--I"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
             </Card.Text>
           </Card.Body>
           <Card.Footer>
