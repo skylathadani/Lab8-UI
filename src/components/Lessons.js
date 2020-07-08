@@ -37,13 +37,15 @@ const Lessons = () => {
 
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://www.thesoulmedic.com/wp-content/uploads/children-music-love-empathy-science-247493062.jpg"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Ages 6 Weeks - 6 Years</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Enlighten your child with Singing, Rhyming, Dance, Instrument
+              Exploration and Listening
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -51,12 +53,15 @@ const Lessons = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh4VzrdmuFIptujZo60v6RpDQjmLsHT1v-vw&usqp=CAU"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Ages 4-7 Years</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              Instrument Studies (private and group), RCM and Classroom
+              Education
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -64,13 +69,15 @@ const Lessons = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTj-v1J72cjkc3t6jjiy7-GeQ43vUQw-OvrEA&usqp=CAU"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Ages 7 -12 Years</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              Instrument Studies (private and group), RCM and Classroom
+              Education
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -82,13 +89,15 @@ const Lessons = () => {
       <br />
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://prestigemusicstudios.files.wordpress.com/2010/12/kids-in-band-playing-trumpets-and-violin.jpg"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Ages 13+ Years</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Instrument Studies (private and group), RCM and Classroom
+              Education
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -96,27 +105,26 @@ const Lessons = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://www.musicrepo.com/wp-content/uploads/record-acoustic-guitar-vocals-featured.jpg"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
+            <Card.Title>Adult</Card.Title>
+            <Card.Text>Private or Group Studies</Card.Text>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://music.fsu.edu/sites/g/files/upcbnu406/files/media/images/SummerMusicCamps/JazzSH.jpg"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
+            <Card.Title>Music Camps</Card.Title>
+            <Card.Text>March Break and Summer Music Camps available.</Card.Text>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted">Last updated 3 mins ago</small>
