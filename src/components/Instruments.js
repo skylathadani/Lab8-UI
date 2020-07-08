@@ -72,7 +72,7 @@ const Store = () => {
               <iframe
                 width="450"
                 height="315"
-                src="https://www.youtube.com/embed/is68rlOzEio"
+                src="https://www.youtube.com/embed/KwQf_rOUiO4"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
