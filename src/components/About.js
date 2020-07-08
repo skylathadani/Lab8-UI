@@ -27,13 +27,14 @@ const about = () => {
 
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://simpleicon.com/wp-content/uploads/local-SEO.svg"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Started Local</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Our doors opened in 2020 for the wonderful city of Ottawa
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -41,12 +42,15 @@ const about = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://image.flaticon.com/icons/png/512/107/107828.png"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Commitment to Quality</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              We pride ourselves on superior service and quality for both our
+              instruments and lessons.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -54,13 +58,15 @@ const about = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://image.flaticon.com/icons/svg/58/58038.svg"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Family Owned and Operated</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              The Right Note is a family owned business with a commitment to
+              treat you like one of our own.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -72,13 +78,16 @@ const about = () => {
       <br />
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://cdn.onlinewebfonts.com/svg/img_506202.png"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Hard working staff</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Our staff is committed to providing you the best service possible.
+              Most of them are trained musicians ready to help you on your
+              musical journey.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -86,12 +95,16 @@ const about = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://cdn.onlinewebfonts.com/svg/img_155927.png"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Buy and Repair</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              Not only will you be going home with an instrument made with
+              quality and care, we offer plenty of warentee options to help
+              service your instrument right in house.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -99,13 +112,16 @@ const about = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img
+            variant="top"
+            src="https://g6c7x8r2.stackpathcdn.com/wp-content/uploads/2018/11/transparent-music-icon-5.jpg.png"
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>Get Ready to Learn</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              Our music lessons were created with the student in mind. We offer
+              fun and enriching lessons for students and skill levels of all
+              ages.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
