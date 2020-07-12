@@ -13,6 +13,8 @@ import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import { Link } from "react-router-dom";
+import { SketchPicker } from "react-color";
 
 const ExampleToast = ({ children }) => {
   const [show, toggleShow] = useState(true);
@@ -36,9 +38,14 @@ const home = () => (
         all skill levels. We also offer music lessons and skilled staff ready to
         support your musical journey.
       </p>
-      <p>
-        <Button variant="primary">Visit the Store</Button>{" "}
-        <Button variant="primary">Find out about Lessons</Button>
+      <p style={{ color: "#e9ecef" }}>
+        <Link to="/store">
+          <Button variant="primary">Visit the Store</Button>
+        </Link>
+        test
+        <Link to="/lessons">
+          <Button variant="primary">Find out about Lessons</Button>
+        </Link>
       </p>
     </Jumbotron>
     <Carousel>
