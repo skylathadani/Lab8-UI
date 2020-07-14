@@ -29,31 +29,31 @@ const ExampleToast = ({ children }) => {
   );
 };
 
-const home = () => (
+const Frenchhome = () => (
   <div>
     <br />
-    <Link to="/french">
+    <Link to="/">
       <button type="button" class="btn btn-outline-info">
-        Passer au français
+        Switch to English
       </button>
     </Link>
     <br />
     <br />
-
     <Jumbotron>
-      <h1>Welcome to the Right Note!</h1>
+      <h1>Bienvenue sur La Bonne Note!</h1>
       <p>
-        We are a locally owned music store offering a variety of instruments for
-        all skill levels. We also offer music lessons and skilled staff ready to
-        support your musical journey.
+        Nous sommes un magasin de musique local offrant une variété
+        d'instruments pour tous les niveaux de compétence. Nous proposons
+        également des cours de musique et un personnel qualifié prêt à soutenez
+        votre voyage musical.
       </p>
       <p style={{ color: "#e9ecef" }}>
         <Link to="/store">
-          <Button variant="primary">Visit the Store</Button>
+          <Button variant="primary">Visiter la boutique</Button>
         </Link>
         test
         <Link to="/lessons">
-          <Button variant="primary">Find out about Lessons</Button>
+          <Button variant="primary">Découvrez les leçons</Button>
         </Link>
       </p>
     </Jumbotron>
@@ -65,8 +65,8 @@ const home = () => (
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Quality Instruments</h3>
-          <p>Visit our store to find out more</p>
+          <h3>Instruments de qualité</h3>
+          <p>Visitez notre magasin pour en savoir plus</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -77,8 +77,8 @@ const home = () => (
         />
 
         <Carousel.Caption>
-          <h3>Thinking of learning a new instrument?</h3>
-          <p>Book a lesson consultation today</p>
+          <h3>Vous songez à apprendre un nouvel instrument?</h3>
+          <p>Réservez une consultation de cours dès aujourd'hui</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -92,15 +92,17 @@ const home = () => (
           src="https://cdn.onlinewebfonts.com/svg/img_506202.png"
         />
         <Card.Body>
-          <Card.Title>Supportive Staff</Card.Title>
+          <Card.Title>Personnel de soutien</Card.Title>
           <Card.Text>
-            Our staff supports a variety of instrument types. Most of them are
-            musicains themselves! Speak to a staff member today about your
-            musical goals.
+            Notre personnel prend en charge une variété de types d'instruments.
+            La plupart d'entre eux sont se musicains! Parlez à un membre de
+            votre personnel aujourd'hui de votre objectifs musicaux.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">
+            Dernière mise à jour il y a 3 minutes
+          </small>
         </Card.Footer>
       </Card>
       <Card>
@@ -109,15 +111,17 @@ const home = () => (
           src="https://macbethroof.com/wp-content/uploads/2017/09/Quality-icon.png"
         />
         <Card.Body>
-          <Card.Title>Superior Quality</Card.Title>
+          <Card.Title>Qualité supérieure</Card.Title>
           <Card.Text>
-            We guarentee that every instrument goes through a rigorous quality
-            assurance test. Additionally, many of our instruments come with a
-            warentee and flexible return policy.{" "}
+            Nous garantissons que chaque instrument passe par une qualité
+            rigoureuse test d'assurance. De plus, beaucoup de nos instruments
+            sont livrés avec un garantie et politique de retour flexible. {""}
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">
+            Dernière mise à jour il y a 3 minutes
+          </small>
         </Card.Footer>
       </Card>
       <Card>
@@ -126,19 +130,21 @@ const home = () => (
           src="https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/car-512.png"
         />
         <Card.Body>
-          <Card.Title>Curb Side Pickup</Card.Title>
+          <Card.Title>Ramassage latéral</Card.Title>
           <Card.Text>
-            In compliance with Covid-19 saftey standards, we are using curb side
-            pickup. Please wait in the parking lot and a staff member will place
-            your order in your trunk without any interaction.
+            Conformément aux normes de sécurité Covid-19, nous utilisons le côté
+            trottoir ramasser. Veuillez patienter sur le parking et un membre du
+            personnel placera votre commande dans votre coffre sans aucune
+            interaction.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">
+            Dernière mise à jour il y a 3 minutes
+          </small>
         </Card.Footer>
       </Card>
     </CardGroup>
-
     <br />
     <footer>
       <table style={{ width: "100%" }}>
@@ -214,4 +220,4 @@ const home = () => (
   </div>
 );
 
-export default home;
+export default Frenchhome;

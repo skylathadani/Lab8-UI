@@ -21,10 +21,9 @@ const Store = () => {
           </p>
         </Container>
       </Jumbotron>
-
       <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Full Collection</strong> View our collection of instruments for
-        all players.
+        <strong>Beginner Collection</strong> View our collection of instruments
+        for beginner players.
       </div>
 
       <br />
@@ -65,46 +64,6 @@ const Store = () => {
       <br />
 
       <CardColumns>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://cosmomusic.ca/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/F/S/FSGAALVAD60CESH_0_4.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Alvares</Card.Title>
-            <Card.Text>
-              Alvares AD60CESHB Artist Acoustic-Electric Guitar - Shadow Burst
-            </Card.Text>
-            <Button variant="primary">$700.67</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://cosmomusic.ca/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/F/S/FSGAFEN97171222_0_4.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Fender</Card.Title>
-            <Card.Text>
-              0971712022 Fender Alkaline Trio Malibu Acoustic Guitar - Walnut,
-              Natural
-            </Card.Text>
-            <Button variant="primary">$500.00</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://cosmomusic.ca/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/f/s/fsgeeast486bbk_0_6.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Eastman</Card.Title>
-            <Card.Text>
-              t486B-BK Eastman - t486B Electric Guitar With Case - Black
-            </Card.Text>
-            <Button variant="primary">$1,725.00</Button>
-          </Card.Body>
-        </Card>
         <Card style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
@@ -167,17 +126,7 @@ const Store = () => {
             <Button variant="primary">$629.99</Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://cosmomusic.ca/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/B/S/BSTRJUPJTR710_1_2.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Jupiter</Card.Title>
-            <Card.Text>JTR710 Jupiter Pocket Trumpet</Card.Text>
-            <Button variant="primary">$750.00</Button>
-          </Card.Body>
-        </Card>
+
         <Card style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
@@ -189,55 +138,7 @@ const Store = () => {
             <Button variant="primary">$779.99</Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://cosmomusic.ca/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/B/S/BSCLSEL1400B_1_3.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Selmer</Card.Title>
-            <Card.Text>Selmer 1400 Bb Clarinet</Card.Text>
-            <Button variant="primary">$500.00</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://cosmomusic.ca/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/B/S/BSSTPMA180G1_1_4.jpg"
-          />
-          <Card.Body>
-            <Card.Title>P. Mauriat</Card.Title>
-            <Card.Text>P. Mauriat PMST-180G1 Tenor Saxophone - Gold</Card.Text>
-            <Button variant="primary">$2,649.00</Button>
-          </Card.Body>
-        </Card>
 
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://cosmomusic.ca/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/k/s/kspgychy150bp_0_3.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Young Chang</Card.Title>
-            <Card.Text>
-              Y150BP Young Chang Baby Grand Piano - Black Polish
-            </Card.Text>
-            <Button variant="primary">Please phone for price</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://cosmomusic.ca/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/k/s/kspuwebaw121bp_0.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Albert Weber</Card.Title>
-            <Card.Text>
-              AW121BP Alber Weber Professional Upright Piano - Ebony Polish
-            </Card.Text>
-            <Button variant="primary">Please phone for price</Button>
-          </Card.Body>
-        </Card>
         <Card style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
@@ -291,7 +192,6 @@ const Store = () => {
           </Card.Body>
         </Card>
       </CardColumns>
-
       <br />
       <footer>
         <table style={{ width: "100%" }}>

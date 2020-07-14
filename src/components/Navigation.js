@@ -25,7 +25,18 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/store">Buy</Nav.Link>
+            <NavDropdown title="Buy" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/beginner">
+                Beginner Collection
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/intermediate">
+                Intermediate Collection
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/advanced">
+                Advanced Collection
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/store">Full Collection</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="/lessons">Lessons</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Explore" id="basic-nav-dropdown">

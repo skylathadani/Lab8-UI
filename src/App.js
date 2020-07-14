@@ -9,6 +9,10 @@ import Students from "./components/Students";
 import Staff from "./components/Staff";
 import Instruments from "./components/Instruments";
 import Resources from "./components/Resources";
+import French from "./components/FrenchHome";
+import Begin from "./components/Beginner";
+import Inter from "./components/Intermediate";
+import Adv from "./components/Advanced";
 
 import Home from "./components/Home";
 
@@ -27,6 +31,10 @@ class App extends Component {
             <Route path="/staff" component={Staff} />
             <Route path="/instruments" component={Instruments} />
             <Route path="/resources" component={Resources} />
+            <Route path="/french" component={French} />
+            <Route path="/beginner" component={Begin} />
+            <Route path="/intermediate" component={Inter} />
+            <Route path="/advanced" component={Adv} />
             <Route component={Error} />
           </Switch>
         </div>
